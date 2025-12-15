@@ -376,7 +376,7 @@ export const FACILITATOR_CONTENT = [
                         React.createElement('h5', { className: "font-bold text-[#464646]" }, "Didaktiske metoder")
                     ),
                     React.createElement('p', { className: "text-sm text-gray-600 mb-4" }, "Print-selv terning med metoder som Casebaseret læring, PBL og Feedback."),
-                    React.createElement('button', { className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
+                    React.createElement('a', { href: "https://raw.githubusercontent.com/trineght/Laering-i-bevaegelse/main/PDFs/Terning-Didaktiske_metoder.pdf", target: "_blank", rel: "noopener noreferrer", className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
                         "Download PDF",
                         React.createElement('svg', { className: "w-4 h-4 ml-1", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24" },
                             React.createElement('path', { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" })
@@ -391,7 +391,7 @@ export const FACILITATOR_CONTENT = [
                         React.createElement('h5', { className: "font-bold text-[#464646]" }, "Digitale teknologier")
                     ),
                     React.createElement('p', { className: "text-sm text-gray-600 mb-4" }, "Print-selv terning med AI, LMS, Podcast, QR-koder m.fl."),
-                    React.createElement('button', { className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
+                    React.createElement('a', { href: "https://raw.githubusercontent.com/trineght/Laering-i-bevaegelse/main/PDFs/Terning-Digitale_teknologier.pdf", target: "_blank", rel: "noopener noreferrer", className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
                         "Download PDF",
                         React.createElement('svg', { className: "w-4 h-4 ml-1", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24" },
                             React.createElement('path', { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" })
@@ -406,7 +406,7 @@ export const FACILITATOR_CONTENT = [
                         React.createElement('h5', { className: "font-bold text-[#464646]" }, "Analoge teknologier")
                     ),
                     React.createElement('p', { className: "text-sm text-gray-600 mb-4" }, "Print-selv terning med Whiteboard, Post-its, Rollespil og Artefakter."),
-                    React.createElement('button', { className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
+                    React.createElement('a', { href: "https://raw.githubusercontent.com/trineght/Laering-i-bevaegelse/main/PDFs/Terning-Analoge_teknologier.pdf", target: "_blank", rel: "noopener noreferrer", className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
                         "Download PDF",
                         React.createElement('svg', { className: "w-4 h-4 ml-1", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24" },
                             React.createElement('path', { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" })
@@ -423,7 +423,7 @@ export const FACILITATOR_CONTENT = [
                         React.createElement('h5', { className: "font-bold text-[#464646]" }, "Selvevalueringsskema")
                     ),
                     React.createElement('p', { className: "text-sm text-gray-600 mb-4" }, "Skema med refleksionsspørgsmål til de 12 parametre."),
-                    React.createElement('button', { className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
+                    React.createElement('a', { href: "https://raw.githubusercontent.com/trineght/Laering-i-bevaegelse/main/PDFs/Selv-evaluering_skema.pdf", target: "_blank", rel: "noopener noreferrer", className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
                         "Download PDF",
                         React.createElement('svg', { className: "w-4 h-4 ml-1", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24" },
                             React.createElement('path', { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" })
@@ -436,7 +436,8 @@ export const FACILITATOR_CONTENT = [
                         React.createElement('h5', { className: "font-bold text-[#464646]" }, "Selvevalueringsdiagram (Æblediagram)")
                     ),
                     React.createElement('p', { className: "text-sm text-gray-600 mb-4" }, "De 12 parametre til pædagogisk selvevaluering (Æblediagrammet) til print."),
-                    React.createElement('button', { className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
+                    //React.createElement('button', { className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
+                    React.createElement('a', { href: "https://raw.githubusercontent.com/trineght/Laering-i-bevaegelse/main/PDFs/Ablediagram.pdf", target: "_blank", rel: "noopener noreferrer", className: "text-sm font-bold text-[#1F7A75] flex items-center hover:underline" }, 
                         "Download PDF",
                         React.createElement('svg', { className: "w-4 h-4 ml-1", fill: "none", stroke: "currentColor", viewBox: "0 0 24 24" },
                             React.createElement('path', { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: 2, d: "M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" })
