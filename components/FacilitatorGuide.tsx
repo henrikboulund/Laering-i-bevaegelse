@@ -11,7 +11,7 @@ const FacilitatorGuide: React.FC = () => {
         <Card className="!p-0 overflow-hidden">
             <div className="flex flex-col">
                 <div className="p-6 sm:p-8 border-b border-gray-200 bg-gray-50">
-                    <h2 className="text-4xl font-bold text-[#464646]">Guide til facilitator</h2>
+                    <h2 className="text-3xl font-bold text-[#464646]">Guide til facilitator</h2>
                     <p className="text-[#464646] mt-4 text-2xl">
                         Her finder du teoretisk baggrund, mødeagendaer og kvikrunden til at facilitere Læring i bevægelse - et eksperiment i didaktisk mod.
                     </p>
@@ -37,7 +37,7 @@ const FacilitatorGuide: React.FC = () => {
 
                 <div className="p-6 sm:p-8">
                     <div className="prose max-w-none prose-gray text-[#464646] prose-2xl">
-                        <h3 className="text-5xl font-bold text-[#1F7A75] mb-10">{activeContent.title}</h3>
+                        <h3 className="text-3xl font-bold text-[#1F7A75] mb-10">{activeContent.title}</h3>
                         {activeContent.content}
                     </div>
                 </div>
